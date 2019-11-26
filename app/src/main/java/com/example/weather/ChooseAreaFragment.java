@@ -105,6 +105,7 @@ public class ChooseAreaFragment extends Fragment {
             currentLevel = LEVEL_PROVINCE;
         }else {
             String address = "http://guolin.tech/api/china";
+
             queryFromServer(address, "province");
         }
     }
